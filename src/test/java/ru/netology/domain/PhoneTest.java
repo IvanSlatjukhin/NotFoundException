@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SmartphoneTest {
+class PhoneTest {
 
     Phone phone = new Phone(3, "One Plus 6", 30_000, "BBK Electronics");
 
