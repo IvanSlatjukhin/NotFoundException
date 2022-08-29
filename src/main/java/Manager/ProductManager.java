@@ -1,14 +1,15 @@
 package Manager;
 
 import Repository.ProductRepository;
-import ru.netology.domain.Book;
 import ru.netology.domain.Product;
-import ru.netology.domain.Phone;
+
+import javax.management.openmbean.CompositeData;
 
 public class ProductManager {
     private ProductRepository Repository;
 
     public ProductManager(ProductRepository repository) {
+
         this.Repository = repository;
     }
 
